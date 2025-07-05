@@ -1,0 +1,52 @@
+{
+  "$type": "ThunderRoad.LevelData, ThunderRoad",
+  "id": "ProtoLevel",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 3,
+  "name": "Proto Level",
+  "description": "",
+  "descriptionLocalizationId": null,
+  "sceneAddress": "Bas.Level.Test",
+  "showOnlyDevMode": false,
+  "showInLevelSelection": false,
+  "worldmapPrefabAddress": "Bas.Image.Map.Default",
+  "worldmapTextureAddress": "Bas.Worldmap.Eraden",
+  "worldmapLabel": null,
+  "worldMapTravelAudioContainerAddress": "Bas.AudioGroup.UI.PinSelected",
+  "mapLocationIndex": 0,
+  "showOnMap": false,
+  "hideOnAndroid": false,
+  "mapLocationIconAddress": "Bas.Icon.Location.Arena",
+  "mapLocationIconHoverAddress": "Bas.Icon.Location.Arena_Highlight",
+  "mapPreviewImageAddress": null,
+  "modes": [
+    {
+      "$type": "ThunderRoad.LevelData+Mode, ThunderRoad",
+      "name": "Default",
+      "displayName": "Default",
+      "description": "NoDescription",
+      "allowGameModes": [
+        "Sandbox"
+      ],
+      "mapOrder": 0,
+      "playerDeathAction": "AskReload",
+      "modules": [
+        {
+          "$type": "ThunderRoad.LevelModuleCleaner, ThunderRoad",
+          "cleanerRate": 5.0
+        },
+        {
+          "$type": "ThunderRoad.LevelModuleMusic, ThunderRoad",
+          "dynamicMusic": "MusicDalgarian"
+        }
+      ],
+      "availableOptions": []
+    }
+  ],
+  "modePickCountPerRank": 2,
+  "customCameras": [],
+  "throwableRefType": "Item",
+  "improvisedThrowableID": null,
+  "groupPath": null
+}

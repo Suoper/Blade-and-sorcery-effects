@@ -1,0 +1,89 @@
+{
+  "$type": "ThunderRoad.AreaData, ThunderRoad",
+  "id": "GL_XSTransi_Castle_15",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "isUnique": true,
+  "areaPrefabAddress": "Bas.Area.GL_XSTransi_Castle_15",
+  "lightingPresetAddress": "Bas.Area.GL_XSTransi_Castle_15.LightingPreset",
+  "cullingAddress": "Bas.Area.GL_XSTransi_Castle_15.CullData",
+  "Bounds": {
+    "$type": "UnityEngine.Bounds, UnityEngine.CoreModule",
+    "center": {
+      "x": 3.27429485,
+      "y": 1.10041857,
+      "z": -2.28653431
+    },
+    "size": {
+      "x": 14.8643589,
+      "y": 7.086259,
+      "z": 22.6899986
+    },
+    "extents": {
+      "x": 7.43217945,
+      "y": 3.54312944,
+      "z": 11.3449993
+    },
+    "min": {
+      "x": -4.1578846,
+      "y": -2.44271088,
+      "z": -13.6315336
+    },
+    "max": {
+      "x": 10.7064743,
+      "y": 4.643548,
+      "z": 9.058465
+    }
+  },
+  "allowedRotation": [
+    "Front",
+    "Back",
+    "Left",
+    "Right"
+  ],
+  "connections": [
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": -1.2935257,
+        "y": 0.0165452957,
+        "z": 9.058464
+      },
+      "face": "Front",
+      "fakeViewAddress": "Bas.Area.GL_XSTransi_Castle_15.FakeView.0"
+    },
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": 10.7064743,
+        "y": 0.0165452957,
+        "z": -10.9415359
+      },
+      "face": "Right",
+      "fakeViewAddress": "Bas.Area.GL_XSTransi_Castle_15.FakeView.1"
+    }
+  ],
+  "areaGlobalParameters": [],
+  "groupPath": "Outpost/XSTransi"
+}

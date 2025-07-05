@@ -1,0 +1,97 @@
+{
+  "$type": "ThunderRoad.AreaData, ThunderRoad",
+  "id": "DA_Transi_Theater",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "isUnique": true,
+  "areaPrefabAddress": "Bas.Area.DA_Transi_Theater",
+  "lightingPresetAddress": "Bas.Area.DA_Transi_Theater.LightingPreset",
+  "cullingAddress": "Bas.Area.DA_Transi_Theater.CullData",
+  "Bounds": {
+    "$type": "UnityEngine.Bounds, UnityEngine.CoreModule",
+    "center": {
+      "x": 0.8978195,
+      "y": 16.1485672,
+      "z": 1.39504433
+    },
+    "size": {
+      "x": 65.5931549,
+      "y": 50.0180359,
+      "z": 60.40148
+    },
+    "extents": {
+      "x": 32.7965775,
+      "y": 25.0090179,
+      "z": 30.20074
+    },
+    "min": {
+      "x": -31.8987579,
+      "y": -8.860451,
+      "z": -28.8056965
+    },
+    "max": {
+      "x": 33.694397,
+      "y": 41.1575851,
+      "z": 31.5957851
+    }
+  },
+  "allowedRotation": [
+    "Front",
+    "Back",
+    "Left",
+    "Right"
+  ],
+  "connections": [
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "DA_Interior"
+        },
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "DA_Cave"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": -18.338,
+        "y": -4.89999962,
+        "z": -28.8056965
+      },
+      "face": "Back",
+      "fakeViewAddress": "Bas.Area.DA_Transi_Theater.FakeView.0"
+    },
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "DA_Interior"
+        },
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "DA_Cave"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": 33.6943932,
+        "y": 2.30000019,
+        "z": 0.13
+      },
+      "face": "Right",
+      "fakeViewAddress": "Bas.Area.DA_Transi_Theater.FakeView.1"
+    }
+  ],
+  "areaGlobalParameters": [],
+  "groupPath": "Dalgarian/Transi"
+}

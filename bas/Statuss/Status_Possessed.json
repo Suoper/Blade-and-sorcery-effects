@@ -1,0 +1,18 @@
+{
+  "$type": "ThunderRoad.StatusData, ThunderRoad",
+  "id": "Possessed",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "playerSpeedModifier": 1.0,
+  "chargeSpeedModifier": 1.0,
+  "type": "ThunderRoad.StatusBase, ThunderRoad, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "bypassImmunity": 1,
+  "stackType": "Refresh",
+  "forceAllowOnCreatures": true,
+  "allowOnItems": false,
+  "creatureEffectId": "SpellPossessionTransfer",
+  "itemEffectId": null,
+  "groupPath": null,
+  "StackTypeDescription": "Refreshes the duration every time you apply a status."
+}
