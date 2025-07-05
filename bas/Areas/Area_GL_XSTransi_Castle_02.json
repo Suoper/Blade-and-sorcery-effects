@@ -1,0 +1,89 @@
+{
+  "$type": "ThunderRoad.AreaData, ThunderRoad",
+  "id": "GL_XSTransi_Castle_02",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "isUnique": true,
+  "areaPrefabAddress": "Bas.Area.GL_XSTransi_Castle_02",
+  "lightingPresetAddress": "Bas.Area.GL_XSTransi_Castle_02.LightingPreset",
+  "cullingAddress": "Bas.Area.GL_XSTransi_Castle_02.CullData",
+  "Bounds": {
+    "$type": "UnityEngine.Bounds, UnityEngine.CoreModule",
+    "center": {
+      "x": 1.24849987,
+      "y": 0.710135,
+      "z": 2.56505871
+    },
+    "size": {
+      "x": 13.997,
+      "y": 11.88027,
+      "z": 17.5120888
+    },
+    "extents": {
+      "x": 6.9985,
+      "y": 5.940135,
+      "z": 8.756044
+    },
+    "min": {
+      "x": -5.75,
+      "y": -5.23,
+      "z": -6.19098568
+    },
+    "max": {
+      "x": 8.247,
+      "y": 6.65027,
+      "z": 11.3211031
+    }
+  },
+  "allowedRotation": [
+    "Front",
+    "Back",
+    "Left",
+    "Right"
+  ],
+  "connections": [
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": -5.75,
+        "y": -4.232,
+        "z": 0.8100004
+      },
+      "face": "Left",
+      "fakeViewAddress": "Bas.Area.GL_XSTransi_Castle_02.FakeView.0"
+    },
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": 8.247,
+        "y": -4.232,
+        "z": -3.68999958
+      },
+      "face": "Right",
+      "fakeViewAddress": "Bas.Area.GL_XSTransi_Castle_02.FakeView.1"
+    }
+  ],
+  "areaGlobalParameters": [],
+  "groupPath": "Outpost/XSTransi"
+}

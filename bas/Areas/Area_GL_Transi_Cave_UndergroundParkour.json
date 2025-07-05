@@ -1,0 +1,97 @@
+{
+  "$type": "ThunderRoad.AreaData, ThunderRoad",
+  "id": "GL_Transi_Cave_UndergroundParkour",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "isUnique": true,
+  "areaPrefabAddress": "Bas.Area.GL_Transi_Cave_UndergroundParkour",
+  "lightingPresetAddress": "Bas.Area.GL_Transi_Cave_UndergroundParkour.LightingPreset",
+  "cullingAddress": "Bas.Area.GL_Transi_Cave_UndergroundParkour.CullData",
+  "Bounds": {
+    "$type": "UnityEngine.Bounds, UnityEngine.CoreModule",
+    "center": {
+      "x": -3.39242935,
+      "y": -5.851302,
+      "z": 20.625
+    },
+    "size": {
+      "x": 24.8335419,
+      "y": 25.8308353,
+      "z": 45.25
+    },
+    "extents": {
+      "x": 12.4167709,
+      "y": 12.9154177,
+      "z": 22.625
+    },
+    "min": {
+      "x": -15.8092,
+      "y": -18.76672,
+      "z": -2.0
+    },
+    "max": {
+      "x": 9.024342,
+      "y": 7.06411552,
+      "z": 43.25
+    }
+  },
+  "allowedRotation": [
+    "Front",
+    "Back",
+    "Left",
+    "Right"
+  ],
+  "connections": [
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Cave"
+        },
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "face": "Back",
+      "fakeViewAddress": "Bas.Area.GL_Transi_Cave_UndergroundParkour.FakeView.0"
+    },
+    {
+      "$type": "ThunderRoad.AreaData+AreaConnection, ThunderRoad",
+      "connectionTypeIdContainerList": [
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Interior"
+        },
+        {
+          "$type": "ThunderRoad.AreaData+AreaConnectionTypeIdContainer, ThunderRoad",
+          "dataId": "GL_Cave"
+        }
+      ],
+      "overrideBlockerTableAdress": {
+        "$type": "ThunderRoad.AreaConnectionTypeData+PrefabAdressTable, ThunderRoad",
+        "drops": []
+      },
+      "position": {
+        "x": 4.672,
+        "y": -17.25,
+        "z": 43.25
+      },
+      "face": "Front",
+      "fakeViewAddress": "Bas.Area.GL_Transi_Cave_UndergroundParkour.FakeView.1"
+    }
+  ],
+  "areaGlobalParameters": [],
+  "groupPath": "Outpost/Transi"
+}
