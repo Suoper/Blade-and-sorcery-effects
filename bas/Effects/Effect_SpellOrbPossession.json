@@ -1,0 +1,134 @@
+{
+  "$type": "ThunderRoad.EffectData, ThunderRoad",
+  "id": "SpellOrbPossession",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "groupId": "Possession",
+  "volumeDb": 0.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleVfx, ThunderRoad",
+      "vfxAddress": "Bas.Vfx.Spell.Orb.Lightning",
+      "despawnOnEnd": false,
+      "despawnDelay": 0.0,
+      "intensityCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "lifeTime": -1.0,
+      "useSecondaryRenderer": false,
+      "lookAtTarget": false,
+      "spawnOn": "Default",
+      "layerOverride": "None",
+      "mainColorStart": {
+        "r": 3.5,
+        "g": 1.8,
+        "b": 12.0,
+        "a": 1.0
+      },
+      "mainColorEnd": {
+        "r": 3.5,
+        "g": 1.8,
+        "b": 12.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": 8.0,
+        "a": 0.8
+      },
+      "secondaryColorEnd": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": 8.0,
+        "a": 0.8
+      },
+      "mainNoHdrColorStart": {
+        "r": 0.8,
+        "g": 0.5,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 0.8,
+        "g": 0.5,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 0.6,
+        "g": 0.4,
+        "b": 0.8,
+        "a": 0.8
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 0.6,
+        "g": 0.4,
+        "b": 0.8,
+        "a": 0.8
+      },
+      "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "useScaleCurve": false,
+      "scaleCurve": null,
+      "usePointCache": false,
+      "pointCacheSkinnedMeshUpdate": false,
+      "pointCacheMapSize": 512,
+      "pointCachePointCount": 4096,
+      "pointCacheSeed": 0,
+      "pointCacheDistribution": "RandomUniformArea",
+      "pointCacheBakeMode": "Triangle",
+      "useMesh": false,
+      "meshAddress": null,
+      "materialProperties": [],
+      "step": "Start",
+      "stepCustomId": null,
+      "loopCustomStep": false,
+      "platformFilter": "Windows",
+      "sensitiveContent": "None",
+      "sensitiveFilterBehaviour": "Discard",
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "reparentWithBreakable": true,
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    }
+  ],
+  "groupPath": null
+}
